@@ -61,8 +61,10 @@ else:
 
 # Максимальная длина строки
 
-my_poem = ['Варкалось, хливкие шорьки пырялись по наве', 'И хрюкотали зелюки как мюмзики в мове',
-           'О бойся Бармаглота, сын! Он так свирлеп и дик', 'А в глуше рымит исполин - Злопастный Брандашмыг!', ]
+my_poem = ['Варкалось, хливкие шорьки пырялись по наве',
+           'И хрюкотали зелюки как мюмзики в мове',
+           'О бойся Бармаглота, сын! Он так свирлеп и дик', 
+           'А в глуше рымит исполин - Злопастный Брандашмыг!', ]
 
 # пробелы в операторах
 
@@ -92,15 +94,15 @@ else:
 
 # названия переменных
 
-count_of_my_pets = 34
-if count_of_my_pets > 10:
+count_of_pets = 34
+if count_of_pets > 10:
     print('I need more space for my pets!')
 
-my_favorite_pets_and_bird = ['cat', 'wolf', 'ostrich']
-if 'lion' in my_favorite_pets_and_bird:
+favorite_animals = ['cat', 'wolf', 'ostrich']
+if 'lion' in favorite_animals:
     print('Wow!')
 
-MyFavoritePetsAndBirds = ['cat', 'wolf', 'ostrich']
+FavoriteAnimals = ['cat', 'wolf', 'ostrich']
 # но такой стиль используется для названий классов
 
 
@@ -113,12 +115,12 @@ MyFavoritePetsAndBirds = ['cat', 'wolf', 'ostrich']
 #   x y z - для координат
 
 # никогда не используйте в названиях переменных одиночные l, I, O  !
-l = 34
-I = 43
-if l > I:
+x = 34
+y = 43
+if x > y:
     print()
-O = 9
-if O > 0:
+z = 9
+if z > 0:
     print()
 
 # lowercase (слово в нижнем регистре)
