@@ -2,7 +2,7 @@ def print_params(a=5, b='Hello', c=False):
     print(a, b, c)
 
 
-print_params()  # print_params с аргументами без переопределения выдаёт ошибку
+print_params()  # print_params с аргументами без переопределения выдаёт ошибку и на вход должно подаваться равное количество параметров
 print_params(b=25)
 print_params(c=[1, 2, 3])
 
