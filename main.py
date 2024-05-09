@@ -19,3 +19,22 @@ def test2(a=3, b=4, c=5):
 
 
 test2()
+
+
+def test(txt, *numbers, name='Kirill', **surnames):
+    print(txt)
+    print('Это числа: ' , numbers)
+    print('Моё имя:', name)
+    print('Ф-О', surnames)
+
+test('Это функция!', 2, 3, 4, 5, Semen='Slepakov', Andrey='Vasnetsov')
+
+
+def factorial(n):
+    if n == 1:
+        return n
+    else:
+        return n * factorial(n-1)
+
+
+print(factorial(996))
