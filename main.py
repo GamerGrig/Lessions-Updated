@@ -18,7 +18,7 @@ def test2(a, b, c):
     print(a, b, c)
 
 
-test2()
+test2(1, 2, 3)
 
 
 def test(txt, *numbers, name='Kirill', **surnames):
