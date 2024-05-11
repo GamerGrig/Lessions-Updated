@@ -14,8 +14,8 @@ def test():
 test()
 
 
-def test2(a=3, b=4, c=5):
-    print(a, b)
+def test2(a, b, c):
+    print(a, b, c)
 
 
 test2()
