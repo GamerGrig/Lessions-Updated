@@ -12,8 +12,8 @@ print(rock)
 
 result = []
 
-for i in range(1, rock):
-    for k in range(1, rock):
+for i in range(1, rock + 1):
+    for k in range(1, rock + 1):
         sum = i + k
         if i == k:
             continue
